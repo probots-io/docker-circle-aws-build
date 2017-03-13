@@ -21,6 +21,8 @@ RUN apt-get update \
         php7.0-bcmath \
         php7.0-mbstring \
         php7.0-json \
+        php7.0-xml \
+        php7.0-dom \
         php7.0-pdo\
     && pip install --upgrade setuptools awscli wheel \
     && wget -qO- https://get.docker.com/ | sh \
